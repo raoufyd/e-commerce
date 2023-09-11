@@ -1,0 +1,74 @@
+.login {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__image {
+  max-width: 250px;
+  margin-bottom: -15px;
+}
+.login__signin {
+  display: flex;
+  flex-direction: column;
+  border: 1px rgb(170, 170, 170) solid;
+  padding: 20px;
+  width: 350px;
+  height: 400px;
+}
+
+.input__email {
+  width: 100%;
+  margin-top: 5px;
+  height: 30px;
+  border: 1px rgb(129, 128, 128) inset;
+  margin-bottom: 15px;
+}
+.text__email {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.login__signin > h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  font-size: 30px;
+}
+.buttonone {
+  width: 100%;
+  background-color: #f0c14b;
+  border-radius: 3px;
+  border: 1px solid;
+  font-size: large;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.buttonone:hover {
+  cursor: pointer;
+}
+.buttonone :active {
+  opacity: 0.5;
+}
+.login__signin > p {
+  margin-top: 15px;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.buttontwo {
+  width: 100%;
+  font-size: large;
+  border-radius: 3px;
+  border: 1px solid;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.buttontwo:hover {
+  cursor: pointer;
+}
+.buttontwo:active {
+  opacity: 0.5;
+}

@@ -1,0 +1,36 @@
+.checkout__img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.checkout {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.pt {
+  margin-top: 6px;
+}
+.ht {
+  margin-bottom: 20px;
+}
+.checkout {
+  display: flex;
+}
+.checkout__right {
+  margin-top: 10px;
+  position: sticky;
+  top: 48px;
+  right: 5px;
+  z-index: 300;
+}
+@media only screen and (max-width: 1000px) {
+  .checkout__img {
+    display: none;
+  }
+  .checkout {
+    display: flex;
+    flex-direction: column;
+  }
+  .checkout__right {
+    width: 495px;
+  }
+}

@@ -1,0 +1,30 @@
+.home {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(236, 236, 236, 0.966);
+}
+
+.home__image {
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent);
+  z-index: -1;
+  margin-bottom: -150px;
+}
+.home__product {
+  margin-right: 50px;
+  margin-left: 80px;
+  width: 400px;
+  margin-top: 0px;
+}
+
+.product__product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media only screen and (max-width: 900px) {
+  .home__image {
+    margin-bottom: -50px;
+  }
+}

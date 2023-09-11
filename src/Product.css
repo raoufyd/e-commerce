@@ -1,0 +1,35 @@
+.product__button {
+  color: aliceblue;
+  background-color: darkorange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  width: 150px;
+  height: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 1px solid white;
+  border-radius: 8px;
+  outline: none;
+}
+.product__button:hover {
+  cursor: pointer;
+}
+.product__button:active {
+  opacity: 0.5;
+}
+
+.product__card {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+}
+.product__image {
+  display: flex;
+  max-width: 400px;
+  justify-content: center;
+  margin-top: 15px;
+}
+.product__price {
+  color: red;
+}
